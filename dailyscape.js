@@ -47,6 +47,7 @@ var rs3daily = {
     },
     "runesphere": {task: "Runesphere", url: "https://runescape.wiki/w/Runesphere", desc: "Hand in up to 1k rune dust for 25k xp"},
     "book-of-char": {task: "Book of Char", url: "https://runescape.wiki/w/The_Book_of_Char", desc: "Drop logs on the ground and use book for fast firemaking xp"},
+    "aquarium": {task: "Aquarium", url: "https://runescape.wiki/w/Aquarium", short: true, desc: "Open aquarium oysters"},
 };
 
 var rs3dailyshops = {
@@ -284,6 +285,20 @@ var rs3dailyshops = {
             {id: 453, quantity: 3, shop_price: 0, label_override: "Dragon bones from First age tiara"}, //dragon bones
             {id: 12183, quantity: 500, shop_price: 0, label_override: "Spirit shards from Shaman's headdress"}, //spirit shard
             {id: 2315, quantity: 10, shop_price: 0, label_override: "Pie shells from Sous chef's toque"}, //pie shells
+        ]
+    },
+    "limestone": {task: "Limestone at Fort-Forinthry", url: "https://runescape.wiki/w/Construction_Supplies_(Fort_Forinthry)", short: true,
+        outputs: [
+            {id: 3420, quantity: 250, shop_price: 21}, //limestone brick
+        ]
+    },
+    "gems": {task: "Gems at Anachronia", url: "https://runescape.wiki/w/Gem_Shop_(Anachronia)", short: true,
+        outputs: [
+            {id: 1623, quantity: 5, shop_price: 25}, //uncut sapphire
+            {id: 1621, quantity: 5, shop_price: 50}, //uncut emerald
+            {id: 1619, quantity: 5, shop_price: 100}, //uncut ruby
+            {id: 1617, quantity: 5, shop_price: 200}, //uncut diamond
+            {id: 1607, quantity: 10, shop_price: 250}, //cut sapphire
         ]
     },
 };
