@@ -336,6 +336,7 @@ var rs3monthly = {
     "effigy-incubator": {task: "Effigy Incubator", url: "https://runescape.wiki/w/Effigy_Incubator", desc: "Get 10+ effigies"},
     "troll-invasion": {task: "Troll Invasion", url: "https://runescape.wiki/w/Troll_Invasion", desc: "Defend all waves for up to 77k xp book and a treasure hunter key"},
     "dream-of-iaia-xp": {task: "Dream of Iaia XP", url: "https://runescape.wiki/w/Dream_of_Iaia", desc: "Use up stored xp in skilling stations"},
+    "rested-xp": {task: "Forinthry Rested XP", url: "https://runescape.wiki/w/Town_Hall_(Fort_Forinthry)", desc: "Use accumulated bonus xp on Fort Forinthry's town hall"},
 };
 
 /**
