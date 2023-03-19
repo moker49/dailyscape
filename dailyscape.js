@@ -1252,14 +1252,11 @@ const dataUpdatedCheck = function() {
 
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
-           if (xmlhttp.status == 200) {
-               console.log(xmlhttp.responseText);
-           }
-           else if (xmlhttp.status == 400) {
-              alert('There was an error 400');
+           if (xmlhttp.status == 400) {
+               alert('There was an error 400');
            }
            else {
-               alert('something else other than 200 was returned');
+               console.log(xmlhttp.responseText);
            }
         }
     };
